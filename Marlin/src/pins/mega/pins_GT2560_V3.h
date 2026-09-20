@@ -43,7 +43,8 @@
 //
 // Servos
 //
-#define SERVO0_PIN                            11  // 13 untested  3Dtouch
+//#define SERVO0_PIN                            11  // 13 untested  3Dtouch
+#define SERVO0_PIN 32
 
 //
 // Limit Switches
@@ -77,7 +78,7 @@
 // Z Probe (when not Z_MIN_PIN)
 //
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                     32
+  #define Z_MIN_PROBE_PIN                     Z_MIN_PIN
 #endif
 
 //
